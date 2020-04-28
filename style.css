@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.top {
+    background-color: rgb(20, 116, 172);
+    display: flex;
+    width: 100%;
+    padding: .8em;
+    align-items: flex-end;
+    align-items: center;
+}
+
+.top .row {
+    width: 100%;
+}
+
+.top .icons span {
+    align-items: flex-end;
+    max-height: min-content;
+    min-height: min-content;
+    font-size: 1.2em;
+}
+
+.top .icons a {
+    text-decoration: none;
+    color: white;
+    margin: 0em 0.2em;
+    height: min-content;
+    max-height: min-content;
+    min-height: min-content;
+}
+
+.top .center {
+    color: white;
+    font-weight: 500;
+}
+
+.top .center p {
+    margin-bottom: 0;
+    word-wrap: none !important;
+}
+
+.top .buttons .white-button {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: black 1px solid;
+    display: inline-block;
+    font-size: .8em;
+}
+
+.navbar-brand img {
+    width: 10em;
+}
+
+.nav {
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+
+.nav .nav-left {
+    flex: 4;
+    justify-content: space-evenly;
+}
+
+.nav-left img {
+    width: 200px;
+}
+
+.nav .nav-right {
+    display: inline-block;
+    flex: 8;
+    justify-content: space-evenly;
+}
+
+.nav .nav-right a {
+    padding: 10px;
+    width: 20px;
+    color: black;
+    background-color: white;
+    text-decoration: white;
+    font: 900;
+}
+
+ul {
+    list-style-type: none;
+    display: none;
+}
+
+.nav .nav-right a:hover {
+    background-color: rgb(62, 255, 62);
+    color: blue;
+    text-shadow: white 0 0 20px;
+    border-radius: 25% 5%;
+}
+
+.slider img {
+    height: 100%;
+    width: 100%;
+}
+
+.slider {
+    height: 100%;
+    width: 100%;
+}
+
+.sec1 {
+    width: 100%;
+    padding: 2%;
+    background-color: rgba(236, 236, 236, 0.521);
+}
+
+.top-m {
+    background-color: rgb(20, 116, 172);
+    color: white;
+    border-radius: 50px;
+    align-items: center;
+    height: 30px;
+    padding: 5px 0px;
+    min-width: 90%;
+}
+
+.top-m marquee>span {
+    color: rgb(0, 255, 242);
+}
+
+.top-m marquee>a {
+    color: lawngreen;
+}
+
+.sec1 .bottom {
+    margin: 0 20%;
+}
+
+.sec1 h1 .blue {
+    color: blue;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.sec1 h1 .green {
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.title img {
+    width: 3em;
+}
+
+.title::after {
+    content: ' ';
+    width: 5%;
+    border-bottom: darkgreen 2px solid;
+}
+
+.title::before {
+    content: ' ';
+    width: 5%;
+    border-bottom: darkgreen 2px solid;
+}
+
+.sec1 .main-text {
+    text-align: justify;
+    color: rgb(58, 58, 58);
+}
+
+.sec2 {
+    background-color: blue;
+    padding: 5% 7%;
+    width: 100%;
+}
+
+.sec2 .count {
+    color: white;
+}
+
+.sec2 .count img {
+    width: 5em;
+}
+
+.sec2 .count p b {
+    color: greenyellow;
+}
+
+.sec3 {
+    padding-top: 5%;
+}
+
+.sec3 h1 .blue {
+    color: blue;
+    text-decoration: none;
+}
+
+.sec3 h1 .green {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.sec3 .box {
+    max-width: 20em;
+    margin: 3em;
+    padding: 1em;
+    box-shadow: 0px 0px 50px rgba(196, 196, 196, 0.8);
+}
+
+.sec3 .box img {
+    width: 7em;
+    padding: 1em;
+}
+
+.sec3 .box a {
+    text-decoration: none;
+    color: rgb(65, 125, 255);
+    font-size: 1.25em;
+}
+
+.middle {
+    padding: 7% 0%;
+}
+
+.m-left h1 {
+    text-align: left;
+    color: rgb(0, 140, 255);
+    margin-bottom: 10px;
+}
+
+.m-left hr {
+    width: 10em;
+    border: darkgreen solid 1px;
+}
+
+.m-left .boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.m-left .sm-box {
+    flex: 4;
+    height: 75px;
+    min-width: 300px;
+    max-width: 300px;
+    border: lightgrey solid .5px;
+    margin: 2% 3% 2% 0%;
+    padding: 10px 20px;
+    text-align: left;
+    background-color: rgba(0, 225, 255, 0.04);
+    align-items: baseline;
+}
+
+.m-left .sm-box img {
+    width: 3em;
+}
+
+.m-left .sm-box a {
+    text-decoration: none;
+    color: rgb(28, 128, 243);
+    display: inline-flex;
+    align-items: center;
+}
+
+.m-left .sm-box a p {
+    margin-left: 2em;
+}
+
+.md-right {
+    flex: 4;
+}
+
+.md-right h1 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(0, 140, 255);
+}
+
+.md-right hr {
+    width: 10em;
+    margin-bottom: 10px;
+    border: darkgreen solid 1px;
+}
+
+.md-right p {
+    text-align: justify;
+    margin-right: 25%;
+    margin-top: 2em;
+    color: rgb(109, 109, 109);
+}
+
+.md-right marquee a {
+    color: lawngreen;
+}
+
+.bottom {
+    padding-bottom: 5%;
+}
+
+.gallery {
+    padding: 2% 0%;
+}
+
+.sec3 .gallery .image img {
+    width: 13em;
+    background-color: none;
+    opacity: 1;
+}
+
+.sec3 .gallery .image:hover img {
+    opacity: .3;
+    transition: ease-in-out 600ms;
+}
+
+.hi {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    opacity: 0;
+    font-size: 30px;
+}
+
+.image:hover .hi {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    opacity: 1;
+    transition: ease-in-out 600ms;
+}
+
+.footer {
+    background-color: rgb(32, 34, 43);
+    /* padding-top: 5em; */
+    color: rgb(146, 142, 155);
+    padding: 7% 0%;
+    font-weight: lighter;
+}
+
+.footer .container-fluid {
+    padding: 0% 10%;
+}
+
+.footer .start p {
+    margin: .1em;
+    text-align: left;
+    font-weight: 100;
+}
+
+.footer .start span {
+    color: darkgreen;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.footer .start span a {
+    color: rgb(146, 142, 155);
+    padding-left: .2em;
+    font-weight: 100;
+}
+
+.footer .mid {
+    color: white;
+}
+
+.footer .mid p {
+    text-align: left;
+    margin: .5em;
+    margin-left: 0;
+}
+
+.footer .mid .green {
+    width: 10%;
+    border: darkgreen 1.5px solid;
+}
+
+.footer .mid .grey {
+    border: rgb(109, 109, 109) 0.1px solid;
+}
+
+.footer .end {
+    color: white;
+}
+
+.footer .end p {
+    text-align: left;
+    margin: 1em 2em;
+    margin-top: 0;
+}
+
+.footer .end .icon {
+    text-align: left;
+    margin-top: .5em;
+}
+
+.footer .end .icon span {
+    font-size: 1.5em;
+}
+
+.footer .end .icon a {
+    text-decoration: none;
+    margin-right: .4em;
+}
+
+.footer .end .icon a .fb {
+    color: rgb(0, 81, 255);
+}
+
+.footer .end .icon a .twit {
+    color: rgb(36, 204, 255);
+}
+
+.footer .end .icon a .inst {
+    color: rgb(153, 56, 0);
+}
+
+.footer .end .icon a .yt {
+    color: rgb(255, 0, 0);
+}
+
+.copy {
+    background-color: rgb(20, 116, 172);
+    color: white;
+    padding: 2px 10%;
+    height: 100%;
+    margin: 0px;
+}
+
+.copy p {
+    text-align: left;
+    font-size: 14px;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 10px;
+}

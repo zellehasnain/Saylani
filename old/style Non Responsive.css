@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.top {
+    background-color: rgb(20, 116, 172);
+    display: flex;
+    width: 100%;
+    padding: .8em;
+    align-items: flex-end;
+    align-items: center;
+}
+
+.top .icons, .top .center, .top .buttons {
+    flex: 4;
+    justify-content: space-evenly;
+}
+
+.top .icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    margin: 0em 0.2em;
+}
+
+.top .center {
+    color: white;
+    font-weight: 500;
+}
+
+.top .buttons .white-button {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: black 1px solid;
+    display: inline-block;
+    font-size: .8em;
+}
+
+.nav {
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+
+.nav .nav-left {
+    flex: 4;
+    justify-content: space-evenly;
+}
+
+.nav-left img {
+    width: 30%;
+}
+
+.nav .nav-right {
+    display: inline-block;
+    flex: 8;
+    justify-content: space-evenly;
+}
+
+.nav .nav-right a {
+    padding: 10px;
+    width: 20px;
+    color: black;
+    background-color: white;
+    text-decoration: white;
+    font: 900;
+}
+
+ul {
+    list-style-type: none;
+    display: none;
+}
+
+.nav .nav-right a:hover {
+    background-color: rgb(62, 255, 62);
+    color: blue;
+    text-shadow: white 0 0 20px;
+    border-radius: 25% 5%;
+}
+
+.slider img {
+    height: 100%;
+}
+
+.slider {
+    height: 100%;
+    width: 100%;
+}
+
+.sec1 {
+    width: 100%;
+    padding: 2%;
+    background-color: rgba(236, 236, 236, 0.521);
+}
+
+.top-m {
+    background-color: rgb(114, 114, 253);
+    color: white;
+    margin: .2% 10%;
+    padding: .5%;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.sec1 .bottom {
+    margin: 0 20%;
+}
+
+.sec1 h1 .blue {
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.sec1 h1 .green {
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.title img {
+    width: 3em;
+}
+
+.title::after {
+    content: ' ';
+    width: 5%;
+    border-bottom: darkgreen 2px solid;
+}
+
+.title::before {
+    content: ' ';
+    width: 5%;
+    border-bottom: darkgreen 2px solid;
+}
+
+.sec1 .main-text {
+    text-align: justify;
+    color: rgb(58, 58, 58);
+}
+
+.sec2 {
+    background-color: blue;
+    display: flex;
+    padding: 5% 7%;
+}
+
+.sec2 .count {
+    color: white;
+    flex: 4;
+    align-content: space-around;
+}
+
+.sec2 .count img {
+    width: 10%;
+}
+
+.sec2 .count p b {
+    color: greenyellow;
+}
+
+.sec3 {
+    padding: 5%;
+}
+
+.sec3 h1 .blue {
+    color: blue;
+    text-decoration: none;
+}
+
+.sec3 h1 .green {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.sec3 .work-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sec3 .work-top .box {
+    flex: 2;
+    align-content: space-between;
+    max-width: 20em;
+    min-width: 20em;
+    margin: 3em;
+    padding: 1em;
+    box-shadow: 0px 0px 50px rgba(196, 196, 196, 0.8);
+}
+
+.sec3 .work-top .box img {
+    width: 7em;
+    padding: 1em;
+}
+
+.sec3 .work-top .box a {
+    text-decoration: none;
+    color: rgb(65, 125, 255);
+    font-size: 1.25em;
+}
+
+.sec3 .middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% 7%;
+}
+
+.md-left {
+    flex: 6;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.md-left h1 {
+    text-align: left;
+    color: rgb(0, 140, 255);
+    margin-bottom: 10px;
+}
+
+.md-left hr {
+    width: 10em;
+    border: darkgreen solid 1px;
+}
+
+.md-left .boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.md-left .sm-box {
+    flex: 4;
+    height: 75px;
+    min-width: 300px;
+    max-width: 300px;
+    border: lightgrey solid .5px;
+    margin: 2% 3% 2% 0%;
+    padding: 10px 20px;
+    text-align: left;
+    background-color: rgba(0, 183, 255, 0.068);
+    align-items: baseline;
+}
+
+.md-left .sm-box img {
+    width: 3em;
+}
+
+.md-left .sm-box a {
+    text-decoration: none;
+    color: rgb(28, 128, 243);
+    display: inline-flex;
+    align-items: center;
+}
+
+.md-left .sm-box a p {
+    margin-left: 2em;
+}
+
+.md-right {
+    flex: 4;
+}
+
+.md-right h1 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(0, 140, 255);
+}
+
+.md-right hr {
+    width: 10em;
+    margin-bottom: 10px;
+    border: darkgreen solid 1px;
+}
+
+.md-right p {
+    text-align: justify;
+    margin-right: 50%;
+    margin-top: 2em;
+    color: rgb(109, 109, 109);
+}
+
+.sec3 .bottom .gallery {
+    display: flex;
+    margin: 1.2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec3 .bottom .gallery img {
+    margin: .2em;
+    width: 15em;
+}
+
+.footer {
+    background-color: rgb(32, 34, 43);
+    padding-top: 5em;
+    color: rgb(146, 142, 155);
+    padding: 7% 10%;
+    display: flex;
+    font-weight: lighter;
+    /* padding-bottom: 1%; */
+}
+
+.footer .start, .mid, .end {
+    flex: 4;
+}
+
+.footer .start p {
+    margin: .1em;
+    text-align: left;
+    font-weight: 100;
+}
+
+.footer .start span {
+    color: darkgreen;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.footer .start span a {
+    color: rgb(146, 142, 155);
+    padding-left: .2em;
+    font-weight: 100;
+}
+
+.footer .mid {
+    color: white;
+}
+
+.footer .mid p {
+    text-align: left;
+    margin: .5em;
+    margin-left: 0;
+}
+
+.footer .mid .green {
+    width: 10%;
+    border: darkgreen 1.5px solid;
+}
+
+.footer .mid .grey {
+    border: rgb(109, 109, 109) 0.1px solid;
+}
+
+.footer .end {
+    color: white;
+}
+
+.footer .end p {
+    text-align: left;
+    margin: 1em 2em;
+    margin-top: 0;
+}
+
+.footer .end .icon {
+    text-align: left;
+    margin-top: .5em;
+}
+
+.footer .end .icon span {
+    font-size: 1.5em;
+}
+
+.footer .end .icon a {
+    text-decoration: none;
+    margin-right: .4em;
+}
+
+.footer .end .icon a .fb {
+    color: rgb(0, 81, 255);
+}
+
+.footer .end .icon a .twit {
+    color: rgb(36, 204, 255);
+}
+
+.footer .end .icon a .inst {
+    color: rgb(153, 56, 0);
+}
+
+.footer .end .icon a .yt {
+    color: rgb(255, 0, 0);
+}
+
+.copy {
+    background-color: rgb(20, 116, 172);
+    color: white;
+    padding: .5% 10%;
+}
+
+.copy p {
+    text-align: left;
+    font-size: 14px;
+}
