@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-align: center;
     font-family: 'Baloo Bhaina 2', cursive;
+    scroll-behavior: smooth;
 }
 
 .top {
@@ -232,13 +233,17 @@ ul {
 }
 
 .middle {
-    padding: 7% 0%;
+    padding: 5% 0%;
 }
 
 .m-left h1 {
     text-align: left;
     color: rgb(0, 140, 255);
     margin-bottom: 10px;
+}
+
+.m-left {
+    margin-bottom: 1em;
 }
 
 .m-left hr {
@@ -295,6 +300,12 @@ ul {
     border: darkgreen solid 1px;
 }
 
+.md-right marquee {
+    max-height: 250px;
+    min-height: 250px;
+    /* overflow: hidden; */
+}
+
 .md-right p {
     text-align: justify;
     margin-right: 25%;
@@ -318,6 +329,7 @@ ul {
     width: 13em;
     background-color: none;
     opacity: 1;
+    margin-bottom: 10px;
 }
 
 .sec3 .gallery .image:hover img {
@@ -444,4 +456,27 @@ ul {
     margin: 0px;
     padding: 5px;
     padding-top: 10px;
+}
+
+.totop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: turquoise;
+}
+
+.totop a i:hover {
+    background-color: rgba(122, 122, 122, 0.5);
+}
+
+.totop a {
+    color: white;
+    text-decoration: none;
+}
+
+.totop a i {
+    background-color: rgba(122, 122, 122, 0.2);
+    padding: 10px;
+    border-radius: 100%;
 }
